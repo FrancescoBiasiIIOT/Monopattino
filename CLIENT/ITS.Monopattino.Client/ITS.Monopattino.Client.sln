@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Client.WorkerService", "ITS.Monopattino.Client.WorkerService\ITS.Monopattino.Client.WorkerService.csproj", "{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81FF4F3F-9EB9-40B8-9547-209C95AD2F9A}
+	EndGlobalSection
+EndGlobal
