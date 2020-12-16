@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Client.WorkerService", "ITS.Monopattino.Client.WorkerService\ITS.Monopattino.Client.WorkerService.csproj", "{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Client.WorkerService", "ITS.Monopattino.Client.WorkerService\ITS.Monopattino.Client.WorkerService.csproj", "{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Client.Models", "ITS.Monopattino.Client.Models\ITS.Monopattino.Client.Models.csproj", "{3F877356-160F-44A5-919C-3097EC298855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC75889-F411-4F14-B9A8-AB7F577F7ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F877356-160F-44A5-919C-3097EC298855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F877356-160F-44A5-919C-3097EC298855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F877356-160F-44A5-919C-3097EC298855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F877356-160F-44A5-919C-3097EC298855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

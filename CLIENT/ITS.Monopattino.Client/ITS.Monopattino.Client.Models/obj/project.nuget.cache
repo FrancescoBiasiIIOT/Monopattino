@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bnG+EBLbEjp7AQT5prgoiVQSCXU4IXm7ReddF2i3sJpL81/qCPX8M9/AoSfphZEQ0xlxHpjTmnXLerG0c2P26w==",
+  "success": true,
+  "projectFilePath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
