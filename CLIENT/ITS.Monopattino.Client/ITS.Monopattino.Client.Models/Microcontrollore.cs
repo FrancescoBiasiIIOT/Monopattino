@@ -6,21 +6,19 @@ namespace ITS.Monopattino.Client.Models
 {
     public class Microcontrollore
     {
-        public int Id;
+        public int Id { get; set; }
 
-        public double Speed;
+        public double Speed { get; set; }
 
-        public int BatteryLvl;
+        public int BatteryLvl { get; set; }
 
-        public double Lat;
+        public double Lat { get; set; }
 
-        public double Lon;
+        public double Lon { get; set; }
 
-        public bool Power;
+        public bool Power { get; set; }
 
-        public int MaxKm;
-
-        public int RemainingKm;
+        public int RemainingKm { get; set; } //metodo per calcolarlo
 
 
     }

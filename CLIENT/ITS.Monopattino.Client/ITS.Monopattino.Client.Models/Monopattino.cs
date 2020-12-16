@@ -8,9 +8,13 @@ namespace ITS.Monopattino.Client.Models
     {
         public int Id { get; set; }
 
-        public int MicroId { get; set; }
+        public Microcontrollore Micro { get; set; }
 
         public string Marca { get; set; }
+
+        public int MaxKm { get; set; }
+
+        
 
 
     }
