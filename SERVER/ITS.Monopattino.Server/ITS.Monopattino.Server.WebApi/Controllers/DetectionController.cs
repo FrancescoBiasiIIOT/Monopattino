@@ -9,16 +9,16 @@ namespace ITS.Monopattino.Server.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class DetectionController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<DetectionController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public DetectionController(ILogger<DetectionController> logger)
         {
             _logger = logger;
         }
@@ -26,14 +26,13 @@ namespace ITS.Monopattino.Server.WebApi.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            throw new NotImplementedException();
+        }
+
+        [HttpPost]
+        public IEnumerable<WeatherForecast> Post()
+        {
+            throw new NotImplementedException();
         }
     }
 }

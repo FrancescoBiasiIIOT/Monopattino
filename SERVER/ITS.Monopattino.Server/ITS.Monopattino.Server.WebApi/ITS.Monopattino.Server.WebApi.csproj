@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Server.Services\ITS.Monopattino.Server.Services.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj" />
+  </ItemGroup>
+
+</Project>

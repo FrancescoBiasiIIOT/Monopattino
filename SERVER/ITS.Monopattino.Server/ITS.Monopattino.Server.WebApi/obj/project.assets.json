@@ -203,6 +203,43 @@
             "rid": "win"
           }
         }
+      },
+      "ITS.Monopattino.Server.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ITS.Monopattino.Server.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ITS.Monopattino.Server.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ITS.Monopattino.Server.Data.dll": {}
+        }
+      },
+      "ITS.Monopattino.Server.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ITS.Monopattino.Server.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ITS.Monopattino.Server.Models.dll": {}
+        }
+      },
+      "ITS.Monopattino.Server.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ITS.Monopattino.Server.Data": "1.0.0",
+          "ITS.Monopattino.Server.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ITS.Monopattino.Server.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ITS.Monopattino.Server.Services.dll": {}
+        }
       }
     }
   },
@@ -576,10 +613,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ITS.Monopattino.Server.Data/1.0.0": {
+      "type": "project",
+      "path": "../ITS.Monopattino.Server.Data/ITS.Monopattino.Server.Data.csproj",
+      "msbuildProject": "../ITS.Monopattino.Server.Data/ITS.Monopattino.Server.Data.csproj"
+    },
+    "ITS.Monopattino.Server.Models/1.0.0": {
+      "type": "project",
+      "path": "../ITS.Monopattino.Server.Models/ITS.Monopattino.Server.Models.csproj",
+      "msbuildProject": "../ITS.Monopattino.Server.Models/ITS.Monopattino.Server.Models.csproj"
+    },
+    "ITS.Monopattino.Server.Services/1.0.0": {
+      "type": "project",
+      "path": "../ITS.Monopattino.Server.Services/ITS.Monopattino.Server.Services.csproj",
+      "msbuildProject": "../ITS.Monopattino.Server.Services/ITS.Monopattino.Server.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ITS.Monopattino.Server.Data >= 1.0.0",
+      "ITS.Monopattino.Server.Models >= 1.0.0",
+      "ITS.Monopattino.Server.Services >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
@@ -611,7 +666,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
+              "projectPath": "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
+            },
+            "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
+              "projectPath": "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
+            },
+            "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
+              "projectPath": "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -661,7 +726,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
