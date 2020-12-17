@@ -12,3 +12,17 @@ C:\Users\Francesco\Desktop\MONOPATTINO\SERVER\ITS.Monopattino.Server\ITS.Monopat
 C:\Users\Francesco\Desktop\MONOPATTINO\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.csproj.CopyComplete
 C:\Users\Francesco\Desktop\MONOPATTINO\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.dll
 C:\Users\Francesco\Desktop\MONOPATTINO\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.pdb
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.deps.json
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.dll
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.pdb
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Data.dll
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.dll
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Data.pdb
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.pdb
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.csprojAssemblyReference.cache
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.AssemblyInfoInputs.cache
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.AssemblyInfo.cs
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.csproj.CoreCompileInputs.cache
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.csproj.CopyComplete
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.dll
+F:\Users\matteoooo\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Services\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Services.pdb

@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Gd8YJyP+lCT+o1J2VP/YLUb5jbD+KycjDGgCK0Yg+0EZBhh6prKlrX1KiMFOSN7hmsslZFNzFm3noBFrO8lbzA==",
+  "dgSpecHash": "/0NOWB18YaTmBBlXxa+EhlHuRPKVJvR2FZWuZvk6nZm/ioFiK46Zz7HT3pH3yEAuMwoDZWjXj+gRnwYJ2oYzBQ==",
   "success": true,
   "projectFilePath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\matteoooo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\matteoooo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Francesco\\.nuget\\packages\\": {}
+    "C:\\Users\\matteoooo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+      "projectUniqueName": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
       "projectName": "ITS.Monopattino.Server.Models",
-      "projectPath": "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
-      "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francesco\\Desktop\\MONOPATTINO\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\obj\\",
+      "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+      "packagesPath": "C:\\Users\\matteoooo\\.nuget\\packages\\",
+      "outputPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matteoooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

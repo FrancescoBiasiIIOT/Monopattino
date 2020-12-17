@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qzEhOBdosRBLHS4avWtkhD+j7WGdeAvigCzoTbhaoS5bZxpU9XnyWgSxdVZ8/NnqIvCp8xx3kSHCp1nti8vTwQ==",
+  "dgSpecHash": "8HOsGpuQgsV/0Zy6mEZGUPO/+h5umsXvoWzShawNcObNZxdLsHS4aVxkwty4gLhr5NCcajHaBEO4YqPU+evDqw==",
   "success": true,
   "projectFilePath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.WorkerService\\ITS.Monopattino.Client.WorkerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
-    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\3.1.8\\microsoft.extensions.configuration.commandline.3.1.8.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\3.1.8\\microsoft.extensions.configuration.environmentvariables.3.1.8.nupkg.sha512",
@@ -28,7 +28,7 @@
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\3.1.8\\microsoft.extensions.logging.eventsource.3.1.8.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.8\\microsoft.extensions.options.configurationextensions.3.1.8.nupkg.sha512",
-    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",

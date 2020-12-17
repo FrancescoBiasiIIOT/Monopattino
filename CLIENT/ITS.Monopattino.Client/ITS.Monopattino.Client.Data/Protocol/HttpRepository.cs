@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -6,19 +7,21 @@ using System.Text;
 
 namespace ITS.Monopattino.Client.Data.Protocol
 {  
-        public class Http : IProtocol
+        public class HttpRepository : IProtocol
         {
-            private string endpoint;
+            private readonly string ConnectionString;
+            private readonly IConfiguration configuration;
             private HttpWebRequest httpWebRequest;
 
-            public Http(string endpoint)
+            public HttpRepository(IConfiguration configuration)
             {
-                this.endpoint = endpoint;
+                this.configuration = configuration;
+                ConnectionString = this.configuration.GetConnectionString("EndPoint");
             }
 
             public void Send(string data)
             {
-                httpWebRequest = (HttpWebRequest)WebRequest.Create(endpoint);
+                httpWebRequest = (HttpWebRequest)WebRequest.Create(ConnectionString);
                 httpWebRequest.ContentType = "text/json";
                 httpWebRequest.Method = "POST";
 

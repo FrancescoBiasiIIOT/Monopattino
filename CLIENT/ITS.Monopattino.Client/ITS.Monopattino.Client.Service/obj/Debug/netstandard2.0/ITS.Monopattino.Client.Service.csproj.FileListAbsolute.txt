@@ -1,0 +1,14 @@
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Service.deps.json
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Service.dll
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Service.pdb
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.dll
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Models.dll
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.pdb
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Models.pdb
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.csprojAssemblyReference.cache
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.AssemblyInfoInputs.cache
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.AssemblyInfo.cs
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.csproj.CoreCompileInputs.cache
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.csproj.CopyComplete
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.dll
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Service\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Service.pdb

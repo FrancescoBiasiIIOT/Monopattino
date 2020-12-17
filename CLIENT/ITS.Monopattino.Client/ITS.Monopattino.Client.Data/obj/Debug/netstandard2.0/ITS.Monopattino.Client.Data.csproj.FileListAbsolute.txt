@@ -1,0 +1,9 @@
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.deps.json
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.dll
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.pdb
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.csprojAssemblyReference.cache
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.AssemblyInfoInputs.cache
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.AssemblyInfo.cs
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.csproj.CoreCompileInputs.cache
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.dll
+F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.pdb

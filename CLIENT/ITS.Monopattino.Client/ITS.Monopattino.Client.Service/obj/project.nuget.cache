@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vXy2YKpmkutAZ7J0Lt1Gw4JS8Nss+X1s16hUFYj5rR1YPAZXgbJ6yK+WxAEXOSvT2uJpAqXQfnhM6i7KyBLbsg==",
+  "dgSpecHash": "OIdRhzALONgPBSazF30uxYMfjpwfDghNhatKnuo3nOGMAL0kUUvL4dLYEgiR1pJR0XLr2p1c8Xe+Jc3WHz5Nxw==",
   "success": true,
   "projectFilePath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
