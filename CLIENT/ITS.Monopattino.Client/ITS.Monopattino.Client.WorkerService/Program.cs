@@ -13,7 +13,7 @@ namespace ITS.Monopattino.Client.WorkerService
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();//pe ride
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
