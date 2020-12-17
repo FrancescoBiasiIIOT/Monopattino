@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ITS.Monopattino.Server.Models;
+using ITS.Monopattino.Server.Models.Models;
+using ITS.Monopattino.Server.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,28 +14,25 @@ namespace ITS.Monopattino.Server.WebApi.Controllers
     [Route("[controller]")]
     public class DetectionController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
+        private readonly IDetectionService detectionService;
         private readonly ILogger<DetectionController> _logger;
 
-        public DetectionController(ILogger<DetectionController> logger)
+        public DetectionController(ILogger<DetectionController> logger, IDetectionService detectionService)
         {
             _logger = logger;
+            this.detectionService = detectionService;
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<DetectionInfo> Get()
         {
-            throw new NotImplementedException();
+            return detectionService.GetDetections();
         }
 
         [HttpPost]
-        public IEnumerable<WeatherForecast> Post()
+        public void Post([FromBody] DetectionInfo detection)
         {
-            throw new NotImplementedException();
+            detectionService.InsertDetection(detection);
         }
     }
 }

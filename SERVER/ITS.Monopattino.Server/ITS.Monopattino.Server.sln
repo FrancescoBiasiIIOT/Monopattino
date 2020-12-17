@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.WebApi", "ITS.Monopattino.Server.WebApi\ITS.Monopattino.Server.WebApi.csproj", "{122E7ED2-679B-4173-940E-57239B143976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Server.Services", "ITS.Monopattino.Server.Services\ITS.Monopattino.Server.Services.csproj", "{314BEB16-1AAB-44DF-B30E-252ED74FBF2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Services", "ITS.Monopattino.Server.Services\ITS.Monopattino.Server.Services.csproj", "{314BEB16-1AAB-44DF-B30E-252ED74FBF2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Server.Models", "ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj", "{DD64BBCC-DE32-4B0C-B728-F26C49D085FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Models", "ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj", "{DD64BBCC-DE32-4B0C-B728-F26C49D085FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Server.Data", "ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj", "{5D4F4F22-C95F-4145-A076-AC30CA68652E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Data", "ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj", "{5D4F4F22-C95F-4145-A076-AC30CA68652E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Server.AzureFunctions", "ITS.Monopattino.Server.AzureFunctions\ITS.Monopattino.Server.AzureFunctions.csproj", "{28A2129B-6F4F-441C-916D-E1D0BF9043EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.AzureFunctions", "ITS.Monopattino.Server.AzureFunctions\ITS.Monopattino.Server.AzureFunctions.csproj", "{28A2129B-6F4F-441C-916D-E1D0BF9043EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
