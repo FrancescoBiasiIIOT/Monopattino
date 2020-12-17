@@ -26,8 +26,11 @@ namespace ITS.Monopattino.Client.WorkerService
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            Scooter scooter = new Scooter();
+            scooter.Id = 15987;
             Microcontrollore sensors = new Microcontrollore();
-
+            sensors.Id = 1;
+            
 
             var random = new Random();
 
@@ -35,10 +38,13 @@ namespace ITS.Monopattino.Client.WorkerService
             {
                 sensors.Speed = random.Next(40);
                 sensors.BatteryLvl = random.Next(100);
-                _services.Send(sensors);
+                sensors.Lat = random.NextDouble();
+                sensors.Lon = random.NextDouble();
+                scooter.Micro = sensors;
+                _services.Send(scooter);
               
 
-                await Task.Delay(1000, stoppingToken);
+                await Task.Delay(5000, stoppingToken);
             }
         }
     }

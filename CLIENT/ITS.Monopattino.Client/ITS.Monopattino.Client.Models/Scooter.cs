@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ITS.Monopattino.Client.Models
 {
-    public class Monopattino
+    public class Scooter
     {
         public int Id { get; set; }
 
