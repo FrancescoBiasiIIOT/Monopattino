@@ -1,9 +1,11 @@
 using ITS.Monopattino.Server.Data;
+using ITS.Monopattino.Server.Data.Detection_Repository;
 using ITS.Monopattino.Server.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,6 +32,7 @@ namespace ITS.Monopattino.Server.WebApi
         {
 
             services.AddControllers();
+            services.AddDbContext<ValleProjectContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ValleProject"))); 
             services.AddScoped<IDetectionService, DetectionService>();
             services.AddScoped<IDetectionRepository, DetectionRepository>();
             services.AddSwaggerGen(c =>
