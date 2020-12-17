@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2pweX/iZbxXn6XmT//wEQPFpKdijNFR4xo/vnAu5bACA3bhHo21IN7z9imAuUcD7oOgZCiAk/rJluErm0ASmaA==",
+  "dgSpecHash": "qzEhOBdosRBLHS4avWtkhD+j7WGdeAvigCzoTbhaoS5bZxpU9XnyWgSxdVZ8/NnqIvCp8xx3kSHCp1nti8vTwQ==",
   "success": true,
   "projectFilePath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.WorkerService\\ITS.Monopattino.Client.WorkerService.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,8 @@
     "C:\\Users\\matteoooo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
     "C:\\Users\\matteoooo\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\matteoooo\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\matteoooo\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\matteoooo\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

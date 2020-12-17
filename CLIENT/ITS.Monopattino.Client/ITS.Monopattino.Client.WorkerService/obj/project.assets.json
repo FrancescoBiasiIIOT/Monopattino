@@ -410,6 +410,52 @@
             "rid": "win"
           }
         }
+      },
+      "System.Text.Json/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
+      "ITS.Monopattino.Client.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ITS.Monopattino.Client.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ITS.Monopattino.Client.Data.dll": {}
+        }
+      },
+      "ITS.Monopattino.Client.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Json": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ITS.Monopattino.Client.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ITS.Monopattino.Client.Models.dll": {}
+        }
+      },
+      "ITS.Monopattino.Client.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ITS.Monopattino.Client.Data": "1.0.0",
+          "ITS.Monopattino.Client.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ITS.Monopattino.Client.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ITS.Monopattino.Client.Service.dll": {}
+        }
       }
     }
   },
@@ -1008,10 +1054,49 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "System.Text.Json/5.0.0": {
+      "sha512": "+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "type": "package",
+      "path": "system.text.json/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.0.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ITS.Monopattino.Client.Data/1.0.0": {
+      "type": "project",
+      "path": "../ITS.Monopattino.Client.Data/ITS.Monopattino.Client.Data.csproj",
+      "msbuildProject": "../ITS.Monopattino.Client.Data/ITS.Monopattino.Client.Data.csproj"
+    },
+    "ITS.Monopattino.Client.Models/1.0.0": {
+      "type": "project",
+      "path": "../ITS.Monopattino.Client.Models/ITS.Monopattino.Client.Models.csproj",
+      "msbuildProject": "../ITS.Monopattino.Client.Models/ITS.Monopattino.Client.Models.csproj"
+    },
+    "ITS.Monopattino.Client.Service/1.0.0": {
+      "type": "project",
+      "path": "../ITS.Monopattino.Client.Service/ITS.Monopattino.Client.Service.csproj",
+      "msbuildProject": "../ITS.Monopattino.Client.Service/ITS.Monopattino.Client.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ITS.Monopattino.Client.Models >= 1.0.0",
+      "ITS.Monopattino.Client.Service >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 3.1.8"
     ]
   },
@@ -1041,7 +1126,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+              "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
+            },
+            "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {
+              "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

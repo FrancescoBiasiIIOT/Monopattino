@@ -1,4 +1,6 @@
-﻿using System;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,8 +20,11 @@ namespace ITS.Monopattino.Client.Models
 
         public bool Power { get; set; }
 
-        public int RemainingKm { get; set; } //metodo per calcolarlo
+        public double RemainingKm { get; set; } //metodo per calcolarlo
 
-
+        public string toJson()
+        {
+            return JsonSerializer.Serialize(this);
+        }
     }
 }

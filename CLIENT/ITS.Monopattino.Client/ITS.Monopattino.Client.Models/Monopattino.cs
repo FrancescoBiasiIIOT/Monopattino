@@ -15,7 +15,5 @@ namespace ITS.Monopattino.Client.Models
         public int MaxKm { get; set; }
 
         
-
-
     }
 }
