@@ -25,6 +25,9 @@
     ".NETCoreApp,Version=v5.0": {
       "ITS.Monopattino.Server.WebApi/1.0.0": {
         "dependencies": {
+          "ITS.Monopattino.Server.Data": "1.0.0",
+          "ITS.Monopattino.Server.Models": "1.0.0",
+          "ITS.Monopattino.Server.Services": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
@@ -494,6 +497,37 @@
         }
       },
       "System.Security.Cryptography.Cng/4.5.0": {},
+      "ITS.Monopattino.Server.Data/1.0.0": {
+        "dependencies": {
+          "ITS.Monopattino.Server.Models": "1.0.0"
+        },
+        "runtime": {
+          "ITS.Monopattino.Server.Data.dll": {}
+        },
+        "compile": {
+          "ITS.Monopattino.Server.Data.dll": {}
+        }
+      },
+      "ITS.Monopattino.Server.Models/1.0.0": {
+        "runtime": {
+          "ITS.Monopattino.Server.Models.dll": {}
+        },
+        "compile": {
+          "ITS.Monopattino.Server.Models.dll": {}
+        }
+      },
+      "ITS.Monopattino.Server.Services/1.0.0": {
+        "dependencies": {
+          "ITS.Monopattino.Server.Data": "1.0.0",
+          "ITS.Monopattino.Server.Models": "1.0.0"
+        },
+        "runtime": {
+          "ITS.Monopattino.Server.Services.dll": {}
+        },
+        "compile": {
+          "ITS.Monopattino.Server.Services.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2311,6 +2345,21 @@
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "ITS.Monopattino.Server.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ITS.Monopattino.Server.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ITS.Monopattino.Server.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

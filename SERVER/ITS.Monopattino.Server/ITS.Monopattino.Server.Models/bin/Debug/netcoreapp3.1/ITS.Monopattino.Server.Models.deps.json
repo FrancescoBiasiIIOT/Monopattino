@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ITS.Monopattino.Server.Models/1.0.0": {
+        "runtime": {
+          "ITS.Monopattino.Server.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ITS.Monopattino.Server.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

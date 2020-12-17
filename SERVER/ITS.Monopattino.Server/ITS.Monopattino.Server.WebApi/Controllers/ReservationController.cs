@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ITS.Monopattino.Server.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace ITS.Monopattino.Server.WebApi.Controllers
 {
-    public class ReservationController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class ReservationController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<WeatherForecast> GetReservations()
+        public IEnumerable<Rental> GetReservations()
         {
             throw new NotImplementedException();
         }
 
 
         [HttpPost]
-        public IEnumerable<WeatherForecast> InsertReservation()
+        public void InsertReservation()
         {
             throw new NotImplementedException();
         }

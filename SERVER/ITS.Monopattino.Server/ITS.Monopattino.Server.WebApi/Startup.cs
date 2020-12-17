@@ -1,3 +1,5 @@
+using ITS.Monopattino.Server.Data;
+using ITS.Monopattino.Server.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,8 @@ namespace ITS.Monopattino.Server.WebApi
         {
 
             services.AddControllers();
+            services.AddScoped<IDetectionService, DetectionService>();
+            services.AddScoped<IDetectionRepository, DetectionRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ITS.Monopattino.Server.WebApi", Version = "v1" });
