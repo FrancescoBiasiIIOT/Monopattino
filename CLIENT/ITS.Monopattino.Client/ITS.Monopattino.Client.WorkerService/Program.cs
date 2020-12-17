@@ -1,3 +1,5 @@
+using ITS.Monopattino.Client.Data.Protocol;
+using ITS.Monopattino.Client.Service;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -19,6 +21,8 @@ namespace ITS.Monopattino.Client.WorkerService
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
+                    services.AddTransient<IProtocol, Http>();
+                    services.AddTransient<IHubService, HubService>();
                 });
     }
 }
