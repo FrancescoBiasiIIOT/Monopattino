@@ -19,5 +19,21 @@ namespace ITS.Monopattino.Server.Models.Models
         public bool Power { get; set; }
 
         public int ScooterId { get; set; }
+
+        public DetectionInfo()
+        {
+
+        }
+
+        public DetectionInfo(Detection detection)
+        {
+            Speed = detection.Speed;
+            Power = detection.IsOn;
+            Lat = detection.Latitude;
+            Lon = detection.Longitude;
+            ScooterId = detection.ScooterId;
+            BatteryLvl = detection.Battery;
+
+        }
     }
 }

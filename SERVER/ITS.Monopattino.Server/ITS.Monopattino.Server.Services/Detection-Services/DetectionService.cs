@@ -2,6 +2,7 @@
 using ITS.Monopattino.Server.Models.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ITS.Monopattino.Server.Services
 {
@@ -17,12 +18,13 @@ namespace ITS.Monopattino.Server.Services
 
         public IEnumerable<DetectionInfo> GetDetections()
         {
-            throw new NotImplementedException();
+            var detections = detectionRepository.GetDetections();
+            return detections.Select(d => new DetectionInfo());
         }
 
         public void InsertDetection(DetectionInfo detection)
         {
-            throw new NotImplementedException();
+            detectionRepository.InsertDetection(new Models.Detection(detection));
         }
     }
 }

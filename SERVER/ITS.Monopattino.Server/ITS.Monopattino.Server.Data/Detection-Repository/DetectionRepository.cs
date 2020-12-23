@@ -1,20 +1,32 @@
-﻿using ITS.Monopattino.Server.Models;
+﻿using ITS.Monopattino.Server.Data.Detection_Repository;
+using ITS.Monopattino.Server.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ITS.Monopattino.Server.Data
 {
     public class DetectionRepository : IDetectionRepository
     {
         //ACCESSO AI DATI
+        public ValleProjectContext Context{ get; set; }
+
+        public DetectionRepository(ValleProjectContext context)
+        {
+            Context = context;
+        }
         public IEnumerable<Detection> GetDetections()
         {
-            throw new NotImplementedException();
+            return Context.Detections.
+                Include(d => d.Scooter).
+                ToList(); //ritorna tutto il contenuto della tabella
         }
 
         public void InsertDetection(Detection detection)
         {
-            throw new NotImplementedException();
+            Context.Detections.Add(detection);
+            Context.SaveChanges();
         }
     }
 }
