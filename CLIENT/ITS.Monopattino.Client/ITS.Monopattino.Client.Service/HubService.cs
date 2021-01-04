@@ -9,12 +9,13 @@ namespace ITS.Monopattino.Client.Service
 {
     public class HubService : IHubService
     {
-        private IProtocol _repository;
+        private static IProtocol _repository;
         public HubService(IProtocol protocol)
         {
             _repository = protocol;
         }
-        public void Send(Scooter sensors)
+
+        public static void Manipolate(Scooter sensors)
         {
             Detection d1 = new Detection()
             {
@@ -26,7 +27,15 @@ namespace ITS.Monopattino.Client.Service
                 Power=sensors.Micro.Power,
                 ScooterId=sensors.Id
             };
-            _repository.Send(JsonSerializer.Serialize(d1));
+            var service = new HubService(_repository);
+            service.Send(d1);
+       
         }
+
+        public void Send(Detection detection)
+        {
+            _repository.Send(JsonSerializer.Serialize(detection));
+        }
+
     }
 }

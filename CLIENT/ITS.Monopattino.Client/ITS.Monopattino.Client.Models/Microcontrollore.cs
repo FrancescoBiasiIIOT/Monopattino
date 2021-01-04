@@ -26,5 +26,11 @@ namespace ITS.Monopattino.Client.Models
         {
             return JsonSerializer.Serialize(this);
         }
+
+
+        public Microcontrollore()
+        {
+            Id = 1;
+        }
     }
 }

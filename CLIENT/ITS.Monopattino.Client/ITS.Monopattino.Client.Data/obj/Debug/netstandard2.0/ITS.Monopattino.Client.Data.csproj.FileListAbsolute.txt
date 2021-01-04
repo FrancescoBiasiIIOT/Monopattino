@@ -7,3 +7,12 @@ F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopat
 F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.csproj.CoreCompileInputs.cache
 F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.dll
 F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.pdb
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.deps.json
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.dll
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Data.pdb
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.csprojAssemblyReference.cache
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.AssemblyInfoInputs.cache
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.AssemblyInfo.cs
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.csproj.CoreCompileInputs.cache
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.dll
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Data\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Data.pdb

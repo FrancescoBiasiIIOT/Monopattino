@@ -6,10 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Client.EdgeService\ITS.Monopattino.Client.EdgeService.csproj" />
     <ProjectReference Include="..\ITS.Monopattino.Client.Models\ITS.Monopattino.Client.Models.csproj" />
     <ProjectReference Include="..\ITS.Monopattino.Client.Service\ITS.Monopattino.Client.Service.csproj" />
   </ItemGroup>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ITS.Monopattino.Client.EdgeService-650DDFBD-18D3-45D4-B503-A6381800185B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Client.Data\ITS.Monopattino.Client.Data.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Client.Models\ITS.Monopattino.Client.Models.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Client.Service\ITS.Monopattino.Client.Service.csproj" />
+  </ItemGroup>
+</Project>

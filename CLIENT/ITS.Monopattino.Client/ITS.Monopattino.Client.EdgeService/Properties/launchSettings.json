@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.Monopattino.Client.EdgeService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

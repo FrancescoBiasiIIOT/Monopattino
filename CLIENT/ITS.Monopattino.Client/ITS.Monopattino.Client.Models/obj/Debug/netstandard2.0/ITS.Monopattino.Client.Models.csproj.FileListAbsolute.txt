@@ -7,3 +7,12 @@ F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopat
 F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.csproj.CoreCompileInputs.cache
 F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.dll
 F:\Users\matteoooo\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.pdb
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Models.deps.json
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Models.dll
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\bin\Debug\netstandard2.0\ITS.Monopattino.Client.Models.pdb
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.csprojAssemblyReference.cache
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.AssemblyInfoInputs.cache
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.AssemblyInfo.cs
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.csproj.CoreCompileInputs.cache
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.dll
+C:\Users\Francesco\Desktop\Monopattino\CLIENT\ITS.Monopattino.Client\ITS.Monopattino.Client.Models\obj\Debug\netstandard2.0\ITS.Monopattino.Client.Models.pdb
