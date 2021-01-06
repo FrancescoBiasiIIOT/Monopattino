@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
       "projectName": "ITS.Monopattino.Server.Models",
-      "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+      "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
       "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\obj\\",
+      "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",

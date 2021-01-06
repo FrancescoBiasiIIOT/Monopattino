@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IqpOHmo0pCFTc2Cg37VwkCnJpQvdjT1Zu9FOXw+tuc9n9Ad4+emxQppR1RLdWxRBlw7YpstvuDQ+2XjdSZ+tEw==",
+  "dgSpecHash": "T6RDnHirH5RQgJKmcrzsyvKuN4qdQo0qeEHX98+3+eUGQHcyHJsq5PvnuRVzrd7YhonAPwmwNpLv0d9tNhrqQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Francesco\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\Francesco\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",

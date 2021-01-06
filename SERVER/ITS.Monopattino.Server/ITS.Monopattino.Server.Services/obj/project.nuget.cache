@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/tDzqVJu0jAzM+2Et+G6WLmKIM78icZW7m/bl+tEFR7oHOkjwjmiOf2RJg8H1YihH4NvXfl1sr0WKsJFtbZJrA==",
+  "dgSpecHash": "wKWJg+MdH3CP3AmaYQ3kSBvmiLc5Gj1K9K1oz+zQxKpreD//OfkaFfU89GKcp9uIXMjcolxJOAY5/5S2mcaxTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj",
+  "projectFilePath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Francesco\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
     "C:\\Users\\Francesco\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.1\\microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",

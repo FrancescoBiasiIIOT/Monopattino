@@ -27,7 +27,7 @@ namespace ITS.Monopattino.Server.WebApi.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("{userId}/{scooterId}", Name = "InsertReservation")]
         public void InsertReservation(int userId, int scooterId)
         {
             reservationService.InsertRental(scooterId,userId);

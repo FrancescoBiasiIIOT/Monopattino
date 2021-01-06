@@ -29,6 +29,12 @@ namespace ITS.Monopattino.Server.WebApi.Controllers
             return detectionService.GetDetections();
         }
 
+        [HttpGet("{scooterId}", Name = "Get")]
+        public IEnumerable<DetectionInfo> Get(int scooterId)
+        {
+            return detectionService.GetDetectionsByScooterId(scooterId);
+        }
+
         [HttpPost]
         public void Post([FromBody] DetectionInfo detection)
         {

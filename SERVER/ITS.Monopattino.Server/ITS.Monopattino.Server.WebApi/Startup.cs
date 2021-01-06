@@ -1,6 +1,8 @@
 using ITS.Monopattino.Server.Data;
 using ITS.Monopattino.Server.Data.Detection_Repository;
+using ITS.Monopattino.Server.Data.Rental_Repository;
 using ITS.Monopattino.Server.Services;
+using ITS.Monopattino.Server.Services.Reservation_Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +36,8 @@ namespace ITS.Monopattino.Server.WebApi
             services.AddControllers();
             services.AddDbContext<ValleProjectContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ValleProject"))); 
             services.AddScoped<IDetectionService, DetectionService>();
+            services.AddScoped<IRentalRepository, RentalRepository>();
+            services.AddScoped<IReservationService, ReservationService>();
             services.AddScoped<IDetectionRepository, DetectionRepository>();
             services.AddSwaggerGen(c =>
             {
