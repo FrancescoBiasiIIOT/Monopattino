@@ -15,19 +15,11 @@ namespace ITS.Monopattino.Client.Service
             _repository = protocol;
         }
 
-        public static void Manipolate(Scooter sensors)
+        public static void Manipolate(Scooter scooter)
         {
-            Detection d1 = new Detection()
-            {
-                BatteryLvl=sensors.Micro.BatteryLvl,
-                Speed=sensors.Micro.Speed,
-                Id=sensors.Micro.Id,
-                Lat=sensors.Micro.Id,
-                Lon=sensors.Micro.Id,
-                Power=sensors.Micro.Power,
-                ScooterId=sensors.Id
-            };
             var service = new HubService(_repository);
+
+            Detection d1 = service.CreateDetection(scooter);
             service.Send(d1);
        
         }
@@ -35,6 +27,20 @@ namespace ITS.Monopattino.Client.Service
         public void Send(Detection detection)
         {
             _repository.Send(JsonSerializer.Serialize(detection));
+        }
+
+        public Detection CreateDetection(Scooter scooter)
+        {
+            return new Detection()
+            {
+                BatteryLvl = scooter.Micro.BatteryLvl,
+                Speed = scooter.Micro.Speed,
+                Id = scooter.Micro.Id,
+                Lat = scooter.Micro.Id,
+                Lon = scooter.Micro.Id,
+                Power = scooter.Micro.Power,
+                ScooterId = scooter.Id
+            };
         }
 
     }
