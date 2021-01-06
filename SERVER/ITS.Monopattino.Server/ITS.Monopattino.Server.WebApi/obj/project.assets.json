@@ -5544,19 +5544,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Francesco\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
       "projectName": "ITS.Monopattino.Server.WebApi",
-      "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5570,14 +5570,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
-              "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
+            "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
             },
-            "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
-              "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
+            "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
             },
-            "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
-              "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj"
+            "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj"
             }
           }
         }
@@ -5633,7 +5633,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

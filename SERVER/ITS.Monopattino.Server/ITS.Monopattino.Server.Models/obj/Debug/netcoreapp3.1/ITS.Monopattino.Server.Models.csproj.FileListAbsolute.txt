@@ -25,3 +25,12 @@ C:\Users\PC\Desktop\Monopattino\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Mo
 C:\Users\PC\Desktop\Monopattino\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\Monopattino\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.dll
 C:\Users\PC\Desktop\Monopattino\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.pdb
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.deps.json
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.dll
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\bin\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.pdb
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.AssemblyInfo.cs
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.dll
+C:\Users\PC\Desktop\Monopattino\SERVER\ITS.Monopattino.Server\ITS.Monopattino.Server.Models\obj\Debug\netcoreapp3.1\ITS.Monopattino.Server.Models.pdb

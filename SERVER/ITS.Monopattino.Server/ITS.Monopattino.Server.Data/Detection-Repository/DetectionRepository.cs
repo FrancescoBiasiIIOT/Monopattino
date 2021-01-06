@@ -26,7 +26,7 @@ namespace ITS.Monopattino.Server.Data
         public IEnumerable<Detection> GetDetectionsByScooter(int scooterId)
         {
             return Context.Detections.
-                Include(d => d.Scooter).Where(sc => sc.Id == scooterId).
+                Include(d => d.Scooter).Where(sc => sc.ScooterId == scooterId).
                 ToList(); //ritorna tutto il contenuto della tabella
         }
 
