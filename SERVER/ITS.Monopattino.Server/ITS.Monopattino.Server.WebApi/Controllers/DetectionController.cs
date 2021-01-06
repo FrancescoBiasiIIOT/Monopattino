@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace ITS.Monopattino.Server.WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("v1/[controller]")]
     public class DetectionController : ControllerBase
     {
         private readonly IDetectionService detectionService;

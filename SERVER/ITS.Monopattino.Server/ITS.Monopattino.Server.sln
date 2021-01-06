@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Data", "ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj", "{5D4F4F22-C95F-4145-A076-AC30CA68652E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.AzureFunctions", "ITS.Monopattino.Server.AzureFunctions\ITS.Monopattino.Server.AzureFunctions.csproj", "{28A2129B-6F4F-441C-916D-E1D0BF9043EB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{5D4F4F22-C95F-4145-A076-AC30CA68652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4F4F22-C95F-4145-A076-AC30CA68652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4F4F22-C95F-4145-A076-AC30CA68652E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{28A2129B-6F4F-441C-916D-E1D0BF9043EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28A2129B-6F4F-441C-916D-E1D0BF9043EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28A2129B-6F4F-441C-916D-E1D0BF9043EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28A2129B-6F4F-441C-916D-E1D0BF9043EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿using ITS.Monopattino.Server.Models;
+﻿using ITS.Monopattino.Server.Data.Rental_Repository;
+using ITS.Monopattino.Server.Models;
+using ITS.Monopattino.Server.Services.Reservation_Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,17 +13,24 @@ namespace ITS.Monopattino.Server.WebApi.Controllers
     [Route("[controller]")]
     public class ReservationController : ControllerBase
     {
+        private readonly IReservationService reservationService;
+
+        public ReservationController(IReservationService reservationService)
+        {
+            this.reservationService = reservationService;
+        }
+
         [HttpGet]
         public IEnumerable<Rental> GetReservations()
         {
-            throw new NotImplementedException();
+            return reservationService.GetRental();
         }
 
 
         [HttpPost]
-        public void InsertReservation()
+        public void InsertReservation(int userId, int scooterId)
         {
-            throw new NotImplementedException();
+            reservationService.InsertRental(scooterId,userId);
         }
     }
 }

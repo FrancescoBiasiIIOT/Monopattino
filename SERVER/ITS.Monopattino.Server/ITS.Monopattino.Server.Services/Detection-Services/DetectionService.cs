@@ -22,6 +22,12 @@ namespace ITS.Monopattino.Server.Services
             return detections.Select(d => new DetectionInfo());
         }
 
+        public IEnumerable<DetectionInfo> GetDetectionsByScooterId(int scooterId)
+        {
+            var detections = detectionRepository.GetDetectionsByScooter(scooterId);
+            return detections.Select(d => new DetectionInfo());
+        }
+
         public void InsertDetection(DetectionInfo detection)
         {
             detectionRepository.InsertDetection(new Models.Detection(detection));
