@@ -27,6 +27,75 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+                "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "M2Mqtt": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
+        "projectName": "ITS.Monopattino.Client.Models",
+        "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
+        "packagesPath": "C:\\Users\\matteoooo\\.nuget\\packages\\",
+        "outputPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matteoooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -40,15 +109,15 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.Abstractions": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

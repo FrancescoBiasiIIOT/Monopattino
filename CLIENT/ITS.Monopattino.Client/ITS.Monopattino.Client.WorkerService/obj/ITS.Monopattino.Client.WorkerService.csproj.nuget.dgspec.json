@@ -27,7 +27,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+                "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "M2Mqtt": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"

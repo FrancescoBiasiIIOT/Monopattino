@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace ITS.Monopattino.Client.Service
 {
@@ -20,13 +21,25 @@ namespace ITS.Monopattino.Client.Service
             var service = new HubService(_repository);
 
             Detection d1 = service.CreateDetection(scooter);
-            service.Send(d1);
-       
+            service.SendSpeed(d1);
+            Task.Delay(2000);
+            service.SendPosition(d1);
+            Task.Delay(2000);
+            service.SendPosition(d1);
+
         }
 
-        public void Send(Detection detection)
+        public void SendSpeed(Detection detection)
         {
-            _repository.Send(JsonSerializer.Serialize(detection));
+            _repository.Send(detection,"Speed");
+        }
+        public void SendPosition(Detection detection)
+        {
+            _repository.Send(detection, "Position");
+        }
+        public void SendBattery(Detection detection)
+        {
+            _repository.Send(detection, "Battery");
         }
 
         public Detection CreateDetection(Scooter scooter)

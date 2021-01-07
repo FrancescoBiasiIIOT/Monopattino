@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using ITS.Monopattino.Client.Models;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -44,6 +45,11 @@ namespace ITS.Monopattino.Client.Data.Protocol
                 throw;
             }
 
+        }
+
+        public void Send(Detection detection, string type)
+        {
+            throw new NotImplementedException();
         }
     }
 
