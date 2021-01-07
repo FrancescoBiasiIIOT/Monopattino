@@ -25,7 +25,7 @@ namespace ITS.Monopattino.Client.Service
             Task.Delay(2000);
             service.SendPosition(d1);
             Task.Delay(2000);
-            service.SendPosition(d1);
+            service.SendBattery(d1);
 
         }
 
@@ -56,5 +56,9 @@ namespace ITS.Monopattino.Client.Service
             };
         }
 
+        public void Send(Detection detection)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 using System.Text.Json;
 using uPLibrary.Networking.M2Mqtt;
@@ -19,15 +20,16 @@ namespace ITS.Monopattino.Client.Data.Protocol.Mqtt
         {
             this.configuration = configuration;
             ConnectionString = this.configuration.GetConnectionString("mqtt");
-            Endpoint = "Monopattino/";
+            Endpoint = "monopattino/";
         }
         public void Send(Detection detection,string type)
         {
+            this.Endpoint = "monopattino/";
             Endpoint += detection.ScooterId.ToString() + '/';
             Endpoint += type;
             QosSelector(type);
-            var json=JsonSerializer.Serialize(detection);
-            MqttClient client = new MqttClient("test.mosquitto.org");
+            var json= JsonSerializer.Serialize(detection);
+            MqttClient client = new MqttClient(IPAddress.Parse("127.0.0.1"));
             string clientId = Guid.NewGuid().ToString();
             client.Connect(clientId);
             client.Subscribe(new string[] { "monopattino/#" }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
