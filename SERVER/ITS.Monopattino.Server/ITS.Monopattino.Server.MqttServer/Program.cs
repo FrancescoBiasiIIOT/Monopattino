@@ -1,8 +1,5 @@
 using ITS.Monopattino.Server.Data;
-using ITS.Monopattino.Server.Data.Detection_Repository;
-using ITS.Monopattino.Server.Data.Rental_Repository;
 using ITS.Monopattino.Server.Services;
-using ITS.Monopattino.Server.Services.Reservation_Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
