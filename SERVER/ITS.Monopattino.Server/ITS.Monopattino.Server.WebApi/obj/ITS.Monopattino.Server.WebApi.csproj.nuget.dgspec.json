@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj": {}
+    "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
+    "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj",
         "projectName": "ITS.Monopattino.Server.Data",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\obj\\",
+        "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj",
+        "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
+              "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
+                "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
               }
             }
           }
@@ -44,9 +44,25 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
@@ -64,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
+    "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
         "projectName": "ITS.Monopattino.Server.Models",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\obj\\",
+        "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+        "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
+    "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj",
         "projectName": "ITS.Monopattino.Server.Services",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\obj\\",
+        "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj",
+        "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,11 +162,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
+              "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
+                "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
               },
-              "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
+              "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
+                "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
               }
             }
           }
@@ -164,6 +180,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -179,21 +201,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj": {
+    "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
         "projectName": "ITS.Monopattino.Server.WebApi",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\ITS.Monopattino.Server.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -207,14 +229,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
+              "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj": {
+                "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Data\\ITS.Monopattino.Server.Data.csproj"
               },
-              "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
+              "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj": {
+                "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj"
               },
-              "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj"
+              "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj": {
+                "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Services\\ITS.Monopattino.Server.Services.csproj"
               }
             }
           }
@@ -270,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

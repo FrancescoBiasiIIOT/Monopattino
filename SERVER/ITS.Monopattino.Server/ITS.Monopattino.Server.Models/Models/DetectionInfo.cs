@@ -35,5 +35,13 @@ namespace ITS.Monopattino.Server.Models.Models
             BatteryLvl = detection.Battery;
 
         }
+        public DetectionInfo(ISummary summary)
+        {
+            Speed = summary.Speed;
+            Lat = summary.Lat;
+            Lon = summary.Lon;
+            BatteryLvl = summary.BatteryLvl;
+
+        }
     }
 }

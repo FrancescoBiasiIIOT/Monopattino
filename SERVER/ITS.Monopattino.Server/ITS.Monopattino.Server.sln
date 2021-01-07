@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Data", "ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj", "{5D4F4F22-C95F-4145-A076-AC30CA68652E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Server.MqttServer", "ITS.Monopattino.Server.MqttServer\ITS.Monopattino.Server.MqttServer.csproj", "{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5D4F4F22-C95F-4145-A076-AC30CA68652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4F4F22-C95F-4145-A076-AC30CA68652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4F4F22-C95F-4145-A076-AC30CA68652E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
