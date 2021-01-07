@@ -13,7 +13,7 @@ namespace ITS.Monopattino.Server.Models.Models
 
         public BatteryInfo(DetectionInfo detection)
         {
-            BatteryLvl = detection.BatteryLvl;
+            BatteryLvl = (int)detection.BatteryLvl;
         }
     }
 }

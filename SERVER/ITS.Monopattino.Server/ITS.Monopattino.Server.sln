@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.WebApi", "ITS.Monopattino.Server.WebApi\ITS.Monopattino.Server.WebApi.csproj", "{122E7ED2-679B-4173-940E-57239B143976}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Services", "ITS.Monopattino.Server.Services\ITS.Monopattino.Server.Services.csproj", "{314BEB16-1AAB-44DF-B30E-252ED74FBF2F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Models", "ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj", "{DD64BBCC-DE32-4B0C-B728-F26C49D085FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.Data", "ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj", "{5D4F4F22-C95F-4145-A076-AC30CA68652E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Monopattino.Server.MqttServer", "ITS.Monopattino.Server.MqttServer\ITS.Monopattino.Server.MqttServer.csproj", "{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITS.Monopattino.Server.MqttServer", "ITS.Monopattino.Server.MqttServer\ITS.Monopattino.Server.MqttServer.csproj", "{FB5C9BE7-35EF-4AA3-B8A0-337956BB971C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{122E7ED2-679B-4173-940E-57239B143976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{122E7ED2-679B-4173-940E-57239B143976}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{122E7ED2-679B-4173-940E-57239B143976}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{122E7ED2-679B-4173-940E-57239B143976}.Release|Any CPU.Build.0 = Release|Any CPU
 		{314BEB16-1AAB-44DF-B30E-252ED74FBF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{314BEB16-1AAB-44DF-B30E-252ED74FBF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{314BEB16-1AAB-44DF-B30E-252ED74FBF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU

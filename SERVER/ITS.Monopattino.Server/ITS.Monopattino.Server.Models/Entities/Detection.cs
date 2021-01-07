@@ -11,20 +11,19 @@ namespace ITS.Monopattino.Server.Models
         [Key]
         public int Id { get; set; }
 
-        public double Speed { get; set; }
+        public double? Speed { get; set; }
 
-        public int Battery { get; set; }
+        public int? Battery { get; set; }
 
-        public bool IsOn { get; set; }
+        public bool? IsOn { get; set; }
 
-        public double Latitude { get; set; }
+        public double? Latitude { get; set; }
 
-        public double Longitude { get; set; }
+        public double? Longitude { get; set; }
 
-        public Scooter Scooter { get; set; }
 
         public int ScooterId { get; set; }
-
+        public DateTime DateTime { get; set; }
         public Detection()
         {
 
@@ -32,12 +31,12 @@ namespace ITS.Monopattino.Server.Models
 
         public Detection(DetectionInfo detection)
         {
-            Speed = detection.Speed;
-            IsOn = detection.Power;
-            Latitude = detection.Lat;
-            Longitude = detection.Lon;
-            ScooterId = detection.ScooterId;
-            Battery = detection.BatteryLvl;
+            Speed = (double)detection.Speed;
+            Latitude = (double)detection.Lat;
+            Longitude = (double)detection.Lon;
+            ScooterId = (int)detection.ScooterId;
+            Battery = (int)detection.BatteryLvl;
+            DateTime = detection.DateTime;
          
         }
 

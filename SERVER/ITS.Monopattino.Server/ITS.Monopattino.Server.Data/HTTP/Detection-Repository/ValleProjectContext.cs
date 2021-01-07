@@ -21,8 +21,8 @@ namespace ITS.Monopattino.Server.Data.Detection_Repository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Detection>()
-                .HasOne(p => p.Scooter);
+            modelBuilder.Entity<Detection>();
+               // .HasOne(p => p.Scooter);
             modelBuilder.Entity<Rental>()
                 .HasOne(p => p.Scooter);
             modelBuilder.Entity<Rental>()

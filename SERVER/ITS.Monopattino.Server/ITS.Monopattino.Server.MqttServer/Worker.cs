@@ -54,6 +54,7 @@ namespace ITS.Monopattino.Server.MqttServer
             var res = detectionService.GetTypeOfTopic(topic[2],result);
             var detection = new DetectionInfo(res);
             detection.ScooterId = Convert.ToInt32(topic[1]);
+            detection.DateTime = DateTime.Now;
             detectionService.InsertDetection(detection);
             Console.WriteLine("topic: " + e.Topic);
         }
