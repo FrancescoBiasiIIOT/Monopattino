@@ -767,6 +767,7 @@
         "dependencies": {
           "ITS.Monopattino.Server.Data": "1.0.0",
           "ITS.Monopattino.Server.Models": "1.0.0",
+          "M2Mqtt": "4.3.0",
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {

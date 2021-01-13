@@ -1,5 +1,6 @@
 using ITS.Monopattino.Server.Data;
 using ITS.Monopattino.Server.Services;
+using ITS.Monopattino.Server.Services.Mqtt_Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -24,6 +25,7 @@ namespace ITS.Monopattino.Server.MqttServer
                     services.AddHostedService<Worker>();
                     services.AddSingleton<IDetectionService, DetectionService>();
                     services.AddSingleton<IDetectionRepository, DetectionRepository>();
+                    services.AddSingleton<IMqttService, MqttService>();
                 });
     }
 }
