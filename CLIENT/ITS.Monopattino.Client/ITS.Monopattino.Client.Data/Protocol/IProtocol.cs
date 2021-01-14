@@ -7,7 +7,7 @@ namespace ITS.Monopattino.Client.Data.Protocol
 {
     public interface IProtocol
     {        
-         void Send(Detection detection,string type);
+         void Send(Object detection,string type,int id);
          void Send(string value);
 
 

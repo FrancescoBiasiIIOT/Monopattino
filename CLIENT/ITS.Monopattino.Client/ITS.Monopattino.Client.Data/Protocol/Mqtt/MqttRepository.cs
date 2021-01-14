@@ -22,13 +22,13 @@ namespace ITS.Monopattino.Client.Data.Protocol.Mqtt
             ConnectionString = this.configuration.GetConnectionString("mqtt");
             Endpoint = "monopattino/";
         }
-        public void Send(Detection detection,string type)
+        public void Send(Object detection,string type,int id)
         {
             this.Endpoint = "monopattino/";
-            Endpoint += detection.ScooterId.ToString() + '/';
+            Endpoint += id.ToString() + '/';
             Endpoint += type;
             QosSelector(type);
-            var json= JsonSerializer.Serialize(detection);
+            var json= JsonSerializer.Serialize(detection);       
             MqttClient client = new MqttClient(IPAddress.Parse("127.0.0.1"));
             string clientId = Guid.NewGuid().ToString();
             client.Connect(clientId);

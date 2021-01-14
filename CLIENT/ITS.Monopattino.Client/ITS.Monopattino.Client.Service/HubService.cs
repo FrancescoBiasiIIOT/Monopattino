@@ -20,45 +20,21 @@ namespace ITS.Monopattino.Client.Service
         {
             var service = new HubService(_repository);
 
-            Detection d1 = service.CreateDetection(scooter);
-            service.SendSpeed(d1);
-            Task.Delay(2000);
-            service.SendPosition(d1);
-            Task.Delay(2000);
-            service.SendBattery(d1);
+            
+            if ((scooter.type-1) == 0) 
+                service.Send(scooter.Speed,scooter.Id,"Speed");
+            if((scooter.type -1)==1)
+                service.Send(scooter.Battery, scooter.Id, "Battery");
+            if ((scooter.type + 2)==2)
+                service.Send(scooter.Position, scooter.Id, "Position");
 
         }
 
-        public void SendSpeed(Detection detection)
+        private void Send(ISummary detection,int scooterId,string topic)
         {
-            _repository.Send(detection,"Speed");
-        }
-        public void SendPosition(Detection detection)
-        {
-            _repository.Send(detection, "Position");
-        }
-        public void SendBattery(Detection detection)
-        {
-            _repository.Send(detection, "Battery");
+            _repository.Send(detection,topic,scooterId);
         }
 
-        public Detection CreateDetection(Scooter scooter)
-        {
-            return new Detection()
-            {
-                BatteryLvl = scooter.Micro.BatteryLvl,
-                Speed = scooter.Micro.Speed,
-                Id = scooter.Micro.Id,
-                Lat = scooter.Micro.Id,
-                Lon = scooter.Micro.Id,
-                Power = scooter.Micro.Power,
-                ScooterId = scooter.Id
-            };
-        }
-
-        public void Send(Detection detection)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

@@ -16,8 +16,14 @@ namespace ITS.Monopattino.Client.WorkerService
     {
         private readonly ILogger<Worker> _logger;
         public Scooter Scooter { get; set; }
-        public Microcontrollore Microcontrollore { get; set; }
+        public BatteryInfo Battery { get; set; }
+
+        public SpeedInfo Speed { get; set; }
+
+        public PositionInfo Position { get; set; }
+
         private readonly IConfiguration _configuration;
+
         private IHubService _services;
         public Worker(ILogger<Worker> logger,IConfiguration configuration,IHubService service)
         {
@@ -25,8 +31,13 @@ namespace ITS.Monopattino.Client.WorkerService
             _configuration = configuration;
             _services = service;
             Scooter = new Scooter();
-            Microcontrollore = new Microcontrollore();
-            Scooter.Micro = Microcontrollore;
+            Battery = new BatteryInfo();
+            Speed = new SpeedInfo();
+            Position = new PositionInfo();
+            Scooter.Battery = Battery;
+            Scooter.Position = Position;
+            Scooter.Speed = Speed;
+            Scooter.type = 0;
 
         }
 
@@ -43,10 +54,25 @@ namespace ITS.Monopattino.Client.WorkerService
         private void GenerateRandomData()
         {
             var random = new Random();
-            Scooter.Micro.Speed = random.Next(40);
-            Scooter.Micro.BatteryLvl = random.Next(100);
-            Scooter.Micro.Lat = random.NextDouble();
-            Scooter.Micro.Lon = random.NextDouble();
+            if (Scooter.type == 0)
+            {
+                Scooter.Speed.speed = random.Next(40);
+                Scooter.type++;
+            }
+            else if (Scooter.type == 1)
+            {
+                Scooter.Battery.batteryLvl = random.Next(100);
+                Scooter.type++;
+            }
+            else
+            {
+                Scooter.Position.lat = random.NextDouble();
+                Scooter.Position.lon = random.NextDouble();
+                Scooter.type = 0;
+            }
+            
+            
+            
         }
     }
 }

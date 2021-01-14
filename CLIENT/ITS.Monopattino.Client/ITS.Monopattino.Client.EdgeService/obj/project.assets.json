@@ -4075,19 +4075,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Francesco\\.nuget\\packages\\": {}
+    "C:\\Users\\matte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\ITS.Monopattino.Client.EdgeService.csproj",
+      "projectUniqueName": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\ITS.Monopattino.Client.EdgeService.csproj",
       "projectName": "ITS.Monopattino.Client.EdgeService",
-      "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\ITS.Monopattino.Client.EdgeService.csproj",
-      "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\obj\\",
+      "projectPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\ITS.Monopattino.Client.EdgeService.csproj",
+      "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4099,16 +4099,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj": {
-              "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj"
+            "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj": {
+              "projectPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj"
             },
-            "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
-              "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
+            "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+              "projectPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
             },
-            "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {
-              "projectPath": "C:\\Users\\Francesco\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj"
+            "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {
+              "projectPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj"
             }
           }
         }
@@ -4121,7 +4120,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
@@ -4138,12 +4136,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -4152,7 +4156,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'M2Mqtt 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Il pacchetto 'M2Mqtt 4.3.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto '.NETCoreApp,Version=v3.1'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
       "libraryId": "M2Mqtt",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
