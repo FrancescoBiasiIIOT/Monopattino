@@ -32,7 +32,7 @@ namespace ITS.Monopattino.Server.MqttServer
         {
             _mqttService.ConfigureClient();
             var command = new Command(true);
-            _mqttService.Client_SendMessage(command,"Speed", 15987);
+            _mqttService.Client_SendMessage(command,"Lights", 15987);
 
             while (!stoppingToken.IsCancellationRequested)
             {

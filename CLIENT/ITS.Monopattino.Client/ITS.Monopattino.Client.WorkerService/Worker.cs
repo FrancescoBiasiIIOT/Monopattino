@@ -46,7 +46,7 @@ namespace ITS.Monopattino.Client.WorkerService
             while (!stoppingToken.IsCancellationRequested)
             {
                 GenerateRandomData();
-              //  HubService.Manipolate(Scooter);
+                HubService.Manipolate(Scooter);
                 await Task.Delay(5000, stoppingToken);
             }
         }
@@ -75,14 +75,17 @@ namespace ITS.Monopattino.Client.WorkerService
         }
         public static void SetPower(bool value)
         {
-            Scooter.Power = value;
-            Console.WriteLine(value);
+            string accesa = value ? "Acceso" : "Spento"; 
+          //  Scooter.Power = value;
+            Console.WriteLine($"Il monopattino si è {accesa}");
         }
         public static void SetLights(bool value)
         {
-            Scooter.Luci = value;
-            Console.WriteLine(value);
+            string accesa = value ? "Accese" : "Spente";
+        //    Scooter.Luci = value;
+            Console.WriteLine($"Le luci sono {accesa}");
         }
+
 
     }
 }

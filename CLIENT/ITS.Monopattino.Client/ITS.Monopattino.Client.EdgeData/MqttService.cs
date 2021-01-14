@@ -39,14 +39,13 @@ namespace ITS.Monopattino.Client.EdgeData
                 case "Power":
                     Worker.SetPower(command.Value);
                     break;
-                case "Light":
+                case "Lights":
+                    Worker.SetLights(command.Value);
+                    break;
+                case "Speed":
                     Worker.SetLights(command.Value);
                     break;
             }
-          
-            //var topicEntity = detectionService.GetClassByTopic(topic.TopicName, result);
-            //var detection = new DetectionInfo(topicEntity, topic.ScooterId);
-            // detectionService.InsertDetection(detection);
 
         }
     }
