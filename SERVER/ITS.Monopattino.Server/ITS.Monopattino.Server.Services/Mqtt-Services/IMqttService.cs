@@ -10,6 +10,6 @@ namespace ITS.Monopattino.Server.Services.Mqtt_Services
     {
         public void ConfigureClient();
         public void Client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e);
-        public void Client_SendMessage();
+        public void Client_SendMessage(Command command, string typeOfCommand, int deviceId);
     }
 }
