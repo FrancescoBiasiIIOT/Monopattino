@@ -14,7 +14,7 @@ namespace ITS.Monopattino.Server.Models.Models
         public Topic(string topicContainer)
         {
             var topic = topicContainer.Split('/');
-            TopicName = topic[2];
+            TopicName = topic[3];
             ScooterId = Convert.ToInt32(topic[1]);
 
         }

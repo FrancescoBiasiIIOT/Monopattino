@@ -31,6 +31,9 @@ namespace ITS.Monopattino.Server.MqttServer
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _mqttService.ConfigureClient();
+            var command = new Command(true);
+            _mqttService.Client_SendMessage(command,"Speed", 15987);
+
             while (!stoppingToken.IsCancellationRequested)
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);

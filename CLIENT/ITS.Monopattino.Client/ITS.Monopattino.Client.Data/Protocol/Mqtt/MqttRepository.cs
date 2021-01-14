@@ -25,14 +25,13 @@ namespace ITS.Monopattino.Client.Data.Protocol.Mqtt
         public void Send(Object detection,string type,int id)
         {
             this.Endpoint = "monopattino/";
-            Endpoint += id.ToString() + '/';
+            Endpoint += id.ToString() + '/' + "detections" + "/";
             Endpoint += type;
             QosSelector(type);
             var json= JsonSerializer.Serialize(detection);       
             MqttClient client = new MqttClient(IPAddress.Parse("127.0.0.1"));
             string clientId = Guid.NewGuid().ToString();
             client.Connect(clientId);
-            client.Subscribe(new string[] { "monopattino/#" }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
             client.Publish(Endpoint, Encoding.UTF8.GetBytes(json), Qos, false);
         }
 

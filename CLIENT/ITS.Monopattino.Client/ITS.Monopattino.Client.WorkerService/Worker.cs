@@ -46,7 +46,7 @@ namespace ITS.Monopattino.Client.WorkerService
             while (!stoppingToken.IsCancellationRequested)
             {
                 GenerateRandomData();
-                HubService.Manipolate(Scooter);
+              //  HubService.Manipolate(Scooter);
                 await Task.Delay(5000, stoppingToken);
             }
         }

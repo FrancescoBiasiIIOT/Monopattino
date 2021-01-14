@@ -14,8 +14,8 @@ namespace ITS.Monopattino.Server.Services.Mqtt_Services
         private readonly IDetectionService detectionService;
         private MqttClient client;
         private readonly string _IP = "127.0.0.1";
-        private readonly string subscription_endpoint = "monopattino/#";
-        private readonly string command_topic = "monopattino/";
+        private readonly string subscription_endpoint = "monopattino/+/detections/#";
+        private readonly string command_topic = "monopattino";
 
 
         public MqttService(IDetectionService detectionService)
@@ -42,11 +42,9 @@ namespace ITS.Monopattino.Server.Services.Mqtt_Services
             client.Subscribe(new string[] { subscription_endpoint }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
         }
 
-
-
         public void Client_SendMessage(Command command, string typeOfCommand, int deviceId)
         {
-            string endpoint = command_topic + "/"  + deviceId + "/" + "commands" + "/" + typeOfCommand ;
+            string endpoint = command_topic + "/"  + deviceId.ToString() + "/" + "commands" + "/" + typeOfCommand ;
             var message = JsonConvert.SerializeObject(command);
             client.Publish(endpoint, Encoding.UTF8.GetBytes(message), MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE, false);
 

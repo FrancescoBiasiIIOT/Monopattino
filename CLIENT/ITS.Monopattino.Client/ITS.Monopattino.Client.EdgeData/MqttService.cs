@@ -14,8 +14,7 @@ namespace ITS.Monopattino.Client.EdgeData
     {
         private MqttClient client;
         private readonly string _IP = "127.0.0.1";
-        private readonly string subscription_endpoint = "monopattino/#";
-        private readonly string command_topic = "monopattino/";
+        private readonly string command_topic = "monopattino/15987/commands/#";
         public MqttService()
         {
             client = new MqttClient(IPAddress.Parse(_IP));
@@ -26,7 +25,8 @@ namespace ITS.Monopattino.Client.EdgeData
             client.MqttMsgPublishReceived += ReceiveDataFromServer;
             string clientId = Guid.NewGuid().ToString();
             client.Connect(clientId);
-            client.Subscribe(new string[] { subscription_endpoint }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
+            client.Subscribe(new string[] { command_topic }, new byte[] { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE });
+            
         }
         public static void ReceiveDataFromServer(object sender, MqttMsgPublishEventArgs e)
         {
