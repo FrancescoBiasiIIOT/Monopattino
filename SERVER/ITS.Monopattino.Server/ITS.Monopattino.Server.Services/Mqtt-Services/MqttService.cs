@@ -36,6 +36,7 @@ namespace ITS.Monopattino.Server.Services.Mqtt_Services
 
         public void ConfigureClient()
         {
+        
             client.MqttMsgPublishReceived += Client_MqttMsgPublishReceived;
             string clientId = Guid.NewGuid().ToString();
             client.Connect(clientId);
@@ -46,7 +47,7 @@ namespace ITS.Monopattino.Server.Services.Mqtt_Services
         {
             string endpoint = command_topic + "/"  + deviceId.ToString() + "/" + "commands" + "/" + typeOfCommand ;
             var message = JsonConvert.SerializeObject(command);
-            client.Publish(endpoint, Encoding.UTF8.GetBytes(message), MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE, false);
+            client.Publish(endpoint, Encoding.UTF8.GetBytes(message), MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE, true);
 
         }
     }

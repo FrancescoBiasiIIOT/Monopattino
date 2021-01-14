@@ -15,7 +15,7 @@ namespace ITS.Monopattino.Client.WorkerService
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
-        public static Scooter Scooter { get; set; }
+        public Scooter Scooter { get; set; }
         public BatteryInfo Battery { get; set; }
 
         public SpeedInfo Speed { get; set; }
@@ -76,13 +76,11 @@ namespace ITS.Monopattino.Client.WorkerService
         public static void SetPower(bool value)
         {
             string accesa = value ? "Acceso" : "Spento"; 
-          //  Scooter.Power = value;
             Console.WriteLine($"Il monopattino si è {accesa}");
         }
         public static void SetLights(bool value)
         {
             string accesa = value ? "Accese" : "Spente";
-        //    Scooter.Luci = value;
             Console.WriteLine($"Le luci sono {accesa}");
         }
 

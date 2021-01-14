@@ -24,9 +24,8 @@ namespace ITS.Monopattino.Client.EdgeService
                 {
                     
                     services.AddSingleton<IMqttService, MqttService>();
+                    services.AddSingleton<IProtocol, MqttRepository>();
                     services.AddHostedService<EdgeWorker>();
-                    
-
 
                 });
     }

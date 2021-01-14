@@ -17,20 +17,22 @@ namespace ITS.Monopattino.Client.EdgeService
     public class EdgeWorker : BackgroundService
     {
         private readonly ILogger<EdgeWorker> _logger;
+        private IProtocol service;
+
         private IMqttService MqttService;
 
 
-        public EdgeWorker(ILogger<EdgeWorker> logger, IMqttService mqttService)
+        public EdgeWorker(ILogger<EdgeWorker> logger, IProtocol service, IMqttService mqttService)
         {
             _logger = logger;
+            this.service = service;
             MqttService = mqttService;
-            
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-
-            MqttService.ConfigureClient();
+            var client = service.GetClient();
+            client.MqttMsgPublishReceived += MqttService.ReceiveDataFromServer;
         }
        
 

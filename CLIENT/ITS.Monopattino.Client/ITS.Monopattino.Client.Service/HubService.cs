@@ -19,8 +19,6 @@ namespace ITS.Monopattino.Client.Service
         public static void Manipolate(Scooter scooter)
         {
             var service = new HubService(_repository);
-
-            
             if ((scooter.type-1) == 0) 
                 service.Send(scooter.Speed,scooter.Id,"Speed");
             if((scooter.type -1)==1)
