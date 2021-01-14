@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="M2Mqtt" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Client.Models\ITS.Monopattino.Client.Models.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Client.WorkerService\ITS.Monopattino.Client.WorkerService.csproj" />
+  </ItemGroup>
+
+</Project>

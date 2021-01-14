@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ITS.Monopattino.Server.Services")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ITS.Monopattino.Server.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ITS.Monopattino.Server.Services")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ITS.Monopattino.Server.Services")]
+[assembly: System.Reflection.AssemblyProductAttribute("ITS.Monopattino.Server.Data")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ITS.Monopattino.Server.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.

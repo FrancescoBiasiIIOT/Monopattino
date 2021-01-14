@@ -1203,22 +1203,6 @@
           "bin/placeholder/ITS.Monopattino.Client.Data.dll": {}
         }
       },
-      "ITS.Monopattino.Client.EdgeService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ITS.Monopattino.Client.Data": "1.0.0",
-          "ITS.Monopattino.Client.Models": "1.0.0",
-          "ITS.Monopattino.Client.Service": "1.0.0",
-          "Microsoft.Extensions.Hosting": "3.1.10"
-        },
-        "compile": {
-          "bin/placeholder/ITS.Monopattino.Client.EdgeService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ITS.Monopattino.Client.EdgeService.dll": {}
-        }
-      },
       "ITS.Monopattino.Client.Models/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4071,11 +4055,6 @@
       "path": "../ITS.Monopattino.Client.Data/ITS.Monopattino.Client.Data.csproj",
       "msbuildProject": "../ITS.Monopattino.Client.Data/ITS.Monopattino.Client.Data.csproj"
     },
-    "ITS.Monopattino.Client.EdgeService/1.0.0": {
-      "type": "project",
-      "path": "../ITS.Monopattino.Client.EdgeService/ITS.Monopattino.Client.EdgeService.csproj",
-      "msbuildProject": "../ITS.Monopattino.Client.EdgeService/ITS.Monopattino.Client.EdgeService.csproj"
-    },
     "ITS.Monopattino.Client.Models/1.0.0": {
       "type": "project",
       "path": "../ITS.Monopattino.Client.Models/ITS.Monopattino.Client.Models.csproj",
@@ -4089,7 +4068,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ITS.Monopattino.Client.EdgeService >= 1.0.0",
       "ITS.Monopattino.Client.Models >= 1.0.0",
       "ITS.Monopattino.Client.Service >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 3.1.10"
@@ -4121,9 +4099,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\ITS.Monopattino.Client.EdgeService.csproj": {
-              "projectPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.EdgeService\\ITS.Monopattino.Client.EdgeService.csproj"
-            },
             "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
               "projectPath": "C:\\Users\\matte\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
             },

@@ -1,4 +1,4 @@
-using ITS.Monopattino.Client.EdgeService;
+
 using ITS.Monopattino.Client.Models;
 using ITS.Monopattino.Client.Service;
 using Microsoft.Extensions.Configuration;
@@ -15,7 +15,7 @@ namespace ITS.Monopattino.Client.WorkerService
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
-        public Scooter Scooter { get; set; }
+        public static Scooter Scooter { get; set; }
         public BatteryInfo Battery { get; set; }
 
         public SpeedInfo Speed { get; set; }
@@ -46,7 +46,7 @@ namespace ITS.Monopattino.Client.WorkerService
             while (!stoppingToken.IsCancellationRequested)
             {
                 GenerateRandomData();
-                EdgeWorker.ReceiveDataFromDevice(Scooter);
+                HubService.Manipolate(Scooter);
                 await Task.Delay(5000, stoppingToken);
             }
         }
@@ -71,8 +71,18 @@ namespace ITS.Monopattino.Client.WorkerService
                 Scooter.type = 0;
             }
             
-            
-            
+                    
         }
+        public static void SetPower(bool value)
+        {
+            Scooter.Power = value;
+            Console.WriteLine(value);
+        }
+        public static void SetLights(bool value)
+        {
+            Scooter.Luci = value;
+            Console.WriteLine(value);
+        }
+
     }
 }

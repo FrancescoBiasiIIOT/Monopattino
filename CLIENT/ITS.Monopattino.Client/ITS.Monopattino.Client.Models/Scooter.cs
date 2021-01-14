@@ -19,8 +19,11 @@ namespace ITS.Monopattino.Client.Models
 
         public int type { get; set; }
         public bool Power { get; set; }
-
         public bool Luci { get; set; }
+
+
+
+
 
 
         public Scooter()

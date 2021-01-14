@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ITS.Monopattino.Client.Data\ITS.Monopattino.Client.Data.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Client.EdgeData\ITS.Monopattino.Client.EdgeData.csproj" />
     <ProjectReference Include="..\ITS.Monopattino.Client.Models\ITS.Monopattino.Client.Models.csproj" />
     <ProjectReference Include="..\ITS.Monopattino.Client.Service\ITS.Monopattino.Client.Service.csproj" />
   </ItemGroup>

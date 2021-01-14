@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KIGtHGanndNBnsBBfIcp8ZKsUX+n5qAomsDtJGkVjzlJul1O0fa0RSKAZorLy0o2DfGjclysZAzOnb2Q9wQlrw==",
+  "dgSpecHash": "Xm4+lvPCs4an6hqOoATKXuimMfywD94/HaL/GsPaVFHnMMtYCo4FkS03Xz2iMVKQslvuU9o0rzfiiK5QztZ4dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\matte\\Desktop\\Monopattino\\SERVER\\ITS.Monopattino.Server\\ITS.Monopattino.Server.Models\\ITS.Monopattino.Server.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

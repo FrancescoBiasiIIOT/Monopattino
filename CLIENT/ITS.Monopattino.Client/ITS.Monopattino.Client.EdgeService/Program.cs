@@ -1,5 +1,6 @@
 using ITS.Monopattino.Client.Data.Protocol;
 using ITS.Monopattino.Client.Data.Protocol.Mqtt;
+using ITS.Monopattino.Client.EdgeData;
 using ITS.Monopattino.Client.Service;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -21,9 +22,12 @@ namespace ITS.Monopattino.Client.EdgeService
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddSingleton<IProtocol, MqttRepository>();
-                    services.AddSingleton<IHubService, HubService>();
+                    
+                    services.AddSingleton<IMqttService, MqttService>();
                     services.AddHostedService<EdgeWorker>();
+                    
+
+
                 });
     }
 }

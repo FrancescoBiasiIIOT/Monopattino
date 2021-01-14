@@ -21,7 +21,7 @@ namespace ITS.Monopattino.Client.WorkerService
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddHostedService<Worker>();                 
+                    services.AddHostedService<Worker>();                         
                     services.AddSingleton<IHubService, HubService>();
                     services.AddSingleton<IProtocol, MqttRepository>();
                 });
