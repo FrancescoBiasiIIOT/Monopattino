@@ -8,17 +8,19 @@ namespace ITS.Monopattino.Server.Models.Models
     {
         public int Id { get; set; }
 
-        public double Speed { get; set; }
+        public double? Speed { get; set; }
 
-        public int BatteryLvl { get; set; }
+        public int? BatteryLvl { get; set; }
 
-        public double Lat { get; set; }
+        public double? Lat { get; set; }
 
-        public double Lon { get; set; }
+        public double? Lon { get; set; }
 
-        public bool Power { get; set; }
+        public bool? Power { get; set; }
 
-        public int ScooterId { get; set; }
+        public int? ScooterId { get; set; }
+
+        public DateTime DateTime { get; set; }
 
         public DetectionInfo()
         {
@@ -35,12 +37,14 @@ namespace ITS.Monopattino.Server.Models.Models
             BatteryLvl = detection.Battery;
 
         }
-        public DetectionInfo(ISummary summary)
+        public DetectionInfo(ISummary summary, int scooterId)
         {
-            Speed = summary.Speed;
-            Lat = summary.Lat;
-            Lon = summary.Lon;
-            BatteryLvl = summary.BatteryLvl;
+            Speed = summary?.Speed;
+            Lat = summary?.Lat;
+            Lon = summary?.Lon;
+            BatteryLvl = summary?.BatteryLvl;
+            DateTime = DateTime.Now;
+            ScooterId = scooterId;
 
         }
     }

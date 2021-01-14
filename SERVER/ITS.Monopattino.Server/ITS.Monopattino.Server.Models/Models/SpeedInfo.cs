@@ -12,7 +12,7 @@ namespace ITS.Monopattino.Server.Models.Models
         public int BatteryLvl { get; set; }
         public SpeedInfo(DetectionInfo detection)
         {
-            Speed = detection.Speed;
+            Speed = (double)detection.Speed;
         }
     }
 }

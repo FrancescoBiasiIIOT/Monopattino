@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using Dapper.Contrib.Extensions;
-using ITS.Monopattino.Server.Data.Detection_Repository;
+using ITS.Monopattino.Server.Data;
 using ITS.Monopattino.Server.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

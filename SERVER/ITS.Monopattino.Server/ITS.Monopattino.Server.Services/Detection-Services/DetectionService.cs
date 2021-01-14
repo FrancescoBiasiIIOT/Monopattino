@@ -17,19 +17,7 @@ namespace ITS.Monopattino.Server.Services
             this.detectionRepository = detectionRepository;
         }
 
-        public IEnumerable<DetectionInfo> GetDetections()
-        {
-            var detections = detectionRepository.GetDetections();
-            return detections.Select(d => new DetectionInfo(d));
-        }
-
-        public IEnumerable<DetectionInfo> GetDetectionsByScooterId(int scooterId)
-        {
-            var detections = detectionRepository.GetDetectionsByScooter(scooterId);
-            return detections.Select(d => new DetectionInfo(d));
-        }
-
-        public ISummary GetTypeOfTopic(string topic, string result)
+        public ISummary GetClassByTopic(string topic, string result)
         {
             var detection = JsonConvert.DeserializeObject<DetectionInfo>(result);
             switch (topic)
@@ -44,6 +32,17 @@ namespace ITS.Monopattino.Server.Services
             return null;
         }
 
+        public IEnumerable<DetectionInfo> GetDetections()
+        {
+            var detections = detectionRepository.GetDetections();
+            return detections.Select(d => new DetectionInfo(d));
+        }
+
+        public IEnumerable<DetectionInfo> GetDetectionsByScooterId(int scooterId)
+        {
+            var detections = detectionRepository.GetDetectionsByScooter(scooterId);
+            return detections.Select(d => new DetectionInfo(d));
+        }
         public void InsertDetection(DetectionInfo detection)
         {
             detectionRepository.InsertDetection(new Models.Detection(detection));

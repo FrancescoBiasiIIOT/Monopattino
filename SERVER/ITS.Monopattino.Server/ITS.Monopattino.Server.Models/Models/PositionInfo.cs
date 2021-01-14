@@ -13,8 +13,8 @@ namespace ITS.Monopattino.Server.Models.Models
 
         public PositionInfo(DetectionInfo detection)
         {
-            Lat = detection.Lat;
-            Lon = detection.Lon;
+            Lat = (double)detection.Lat;
+            Lon = (double)detection.Lon;
         }
     }
 }
