@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {}
   },
   "projects": {
-    "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj": {
+    "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj",
         "projectName": "ITS.Monopattino.Client.Data",
-        "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj",
-        "packagesPath": "C:\\Users\\matteoooo\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matteoooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +27,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +44,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "M2Mqtt": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "M2MqttClientDotnetCore": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -49,6 +61,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
             }
           },
           "imports": [
@@ -65,17 +81,17 @@
         }
       }
     },
-    "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+    "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
         "projectName": "ITS.Monopattino.Client.Models",
-        "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
-        "packagesPath": "C:\\Users\\matteoooo\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matteoooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,17 +142,17 @@
         }
       }
     },
-    "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {
+    "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj",
         "projectName": "ITS.Monopattino.Client.Service",
-        "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj",
-        "packagesPath": "C:\\Users\\matteoooo\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\ITS.Monopattino.Client.Service.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matteoooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,11 +166,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj": {
-                "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj"
+              "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Data\\ITS.Monopattino.Client.Data.csproj"
               },
-              "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
-                "projectPath": "F:\\Users\\matteoooo\\Desktop\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
+              "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\Monopattino\\Monopattino\\CLIENT\\ITS.Monopattino.Client\\ITS.Monopattino.Client.Models\\ITS.Monopattino.Client.Models.csproj"
               }
             }
           }

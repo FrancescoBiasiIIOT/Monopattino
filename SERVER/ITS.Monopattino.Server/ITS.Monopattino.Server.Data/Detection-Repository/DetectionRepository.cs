@@ -1,39 +1,45 @@
-﻿using ITS.Monopattino.Server.Data.Detection_Repository;
+﻿using Dapper;
+using Dapper.Contrib.Extensions;
+using ITS.Monopattino.Server.Data;
 using ITS.Monopattino.Server.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 
 namespace ITS.Monopattino.Server.Data
 {
     public class DetectionRepository : IDetectionRepository
     {
-        //ACCESSO AI DATI
-        public ValleProjectContext Context{ get; set; }
+        private readonly string _connectionString;
 
-        public DetectionRepository(ValleProjectContext context)
-        {
-            Context = context;
+        public DetectionRepository(IConfiguration configuration)
+        { 
+            this._connectionString = configuration.GetConnectionString("ValleProject");
         }
         public IEnumerable<Detection> GetDetections()
         {
-            return Context.Detections.
-                Include(d => d.Scooter).
-                ToList(); //ritorna tutto il contenuto della tabella
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                var query = "SELECT * From Detections";
+                return connection.Query<Detection>(query);
+            }
         }
 
         public IEnumerable<Detection> GetDetectionsByScooter(int scooterId)
         {
-            return Context.Detections.
-                Include(d => d.Scooter).Where(sc => sc.ScooterId == scooterId).
-                ToList(); //ritorna tutto il contenuto della tabella
+            throw new NotImplementedException();
         }
+
 
         public void InsertDetection(Detection detection)
         {
-            Context.Detections.Add(detection);
-            Context.SaveChanges();
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Insert(detection);
+            }
         }
     }
 }

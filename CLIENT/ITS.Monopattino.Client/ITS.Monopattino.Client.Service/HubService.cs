@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace ITS.Monopattino.Client.Service
 {
@@ -18,30 +19,20 @@ namespace ITS.Monopattino.Client.Service
         public static void Manipolate(Scooter scooter)
         {
             var service = new HubService(_repository);
+            if ((scooter.type-1) == 0) 
+                service.Send(scooter.Speed,scooter.Id,"speed");
+            if((scooter.type -1)==1)
+                service.Send(scooter.Battery, scooter.Id, "battery");
+            if ((scooter.type + 2)==2)
+                service.Send(scooter.Position, scooter.Id, "position");
 
-            Detection d1 = service.CreateDetection(scooter);
-            service.Send(d1);
+        }
+
+        private void Send(ISummary detection,int scooterId,string topic)
+        {
+            _repository.Send(detection,topic,scooterId);
+        }
+
        
-        }
-
-        public void Send(Detection detection)
-        {
-            _repository.Send(JsonSerializer.Serialize(detection));
-        }
-
-        public Detection CreateDetection(Scooter scooter)
-        {
-            return new Detection()
-            {
-                BatteryLvl = scooter.Micro.BatteryLvl,
-                Speed = scooter.Micro.Speed,
-                Id = scooter.Micro.Id,
-                Lat = scooter.Micro.Id,
-                Lon = scooter.Micro.Id,
-                Power = scooter.Micro.Power,
-                ScooterId = scooter.Id
-            };
-        }
-
     }
 }

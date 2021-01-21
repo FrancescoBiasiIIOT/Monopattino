@@ -11,5 +11,7 @@ namespace ITS.Monopattino.Server.Services
         public IEnumerable<DetectionInfo> GetDetections(); 
         public IEnumerable<DetectionInfo> GetDetectionsByScooterId(int scooterId);
         public void InsertDetection(DetectionInfo detection);
+        public ISummary GetClassByTopic(string topic, string result);
+
     }
 }

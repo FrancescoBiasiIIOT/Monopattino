@@ -1,4 +1,4 @@
-using ITS.Monopattino.Client.EdgeService;
+
 using ITS.Monopattino.Client.Models;
 using ITS.Monopattino.Client.Service;
 using Microsoft.Extensions.Configuration;
@@ -16,8 +16,14 @@ namespace ITS.Monopattino.Client.WorkerService
     {
         private readonly ILogger<Worker> _logger;
         public Scooter Scooter { get; set; }
-        public Microcontrollore Microcontrollore { get; set; }
+        public BatteryInfo Battery { get; set; }
+
+        public SpeedInfo Speed { get; set; }
+
+        public PositionInfo Position { get; set; }
+
         private readonly IConfiguration _configuration;
+
         private IHubService _services;
         public Worker(ILogger<Worker> logger,IConfiguration configuration,IHubService service)
         {
@@ -25,8 +31,13 @@ namespace ITS.Monopattino.Client.WorkerService
             _configuration = configuration;
             _services = service;
             Scooter = new Scooter();
-            Microcontrollore = new Microcontrollore();
-            Scooter.Micro = Microcontrollore;
+            Battery = new BatteryInfo();
+            Speed = new SpeedInfo();
+            Position = new PositionInfo();
+            Scooter.Battery = Battery;
+            Scooter.Position = Position;
+            Scooter.Speed = Speed;
+            Scooter.type = 0;
 
         }
 
@@ -35,7 +46,7 @@ namespace ITS.Monopattino.Client.WorkerService
             while (!stoppingToken.IsCancellationRequested)
             {
                 GenerateRandomData();
-                EdgeWorker.ReceiveDataFromDevice(Scooter);
+                HubService.Manipolate(Scooter);
                 await Task.Delay(5000, stoppingToken);
             }
         }
@@ -43,10 +54,36 @@ namespace ITS.Monopattino.Client.WorkerService
         private void GenerateRandomData()
         {
             var random = new Random();
-            Scooter.Micro.Speed = random.Next(40);
-            Scooter.Micro.BatteryLvl = random.Next(100);
-            Scooter.Micro.Lat = random.NextDouble();
-            Scooter.Micro.Lon = random.NextDouble();
+            if (Scooter.type == 0)
+            {
+                Scooter.Speed.speed = random.Next(40);
+                Scooter.type++;
+            }
+            else if (Scooter.type == 1)
+            {
+                Scooter.Battery.batteryLvl = random.Next(100);
+                Scooter.type++;
+            }
+            else
+            {
+                Scooter.Position.lat = random.NextDouble();
+                Scooter.Position.lon = random.NextDouble();
+                Scooter.type = 0;
+            }
+            
+                    
         }
+        public static void SetPower(bool value)
+        {
+            string accesa = value ? "Acceso" : "Spento"; 
+            Console.WriteLine($"Il monopattino si è {accesa}");
+        }
+        public static void SetLights(bool value)
+        {
+            string accesa = value ? "Accese" : "Spente";
+            Console.WriteLine($"Le luci sono {accesa}");
+        }
+
+
     }
 }

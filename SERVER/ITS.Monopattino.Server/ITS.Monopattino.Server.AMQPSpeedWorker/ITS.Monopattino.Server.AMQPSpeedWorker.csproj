@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-ITS.Monopattino.Server.AMQPSpeedWorker-004231FA-7F8A-40A4-BCD3-E83C8AE839B4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Server.Services\ITS.Monopattino.Server.Services.csproj" />
+  </ItemGroup>
+</Project>

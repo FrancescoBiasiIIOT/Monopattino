@@ -8,6 +8,6 @@ namespace ITS.Monopattino.Client.Service
     public interface IHubService
     {
 
-        void Send(Detection detection);
+        
     }
 }

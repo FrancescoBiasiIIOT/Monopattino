@@ -1,5 +1,6 @@
 ﻿using ITS.Monopattino.Server.Data;
 using ITS.Monopattino.Server.Models.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,21 @@ namespace ITS.Monopattino.Server.Services
             this.detectionRepository = detectionRepository;
         }
 
+        public ISummary GetClassByTopic(string topic, string result)
+        {
+            var detection = JsonConvert.DeserializeObject<DetectionInfo>(result);
+            switch (topic)
+            {
+                case "speed":
+                    return new SpeedInfo(detection);
+                case "position":
+                    return new PositionInfo(detection);
+                case "battery":
+                    return new BatteryInfo(detection);
+            }
+            return null;
+        }
+
         public IEnumerable<DetectionInfo> GetDetections()
         {
             var detections = detectionRepository.GetDetections();
@@ -27,7 +43,6 @@ namespace ITS.Monopattino.Server.Services
             var detections = detectionRepository.GetDetectionsByScooter(scooterId);
             return detections.Select(d => new DetectionInfo(d));
         }
-
         public void InsertDetection(DetectionInfo detection)
         {
             detectionRepository.InsertDetection(new Models.Detection(detection));

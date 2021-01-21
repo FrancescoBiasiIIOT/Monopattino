@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "ITS.Monopattino.Server.AMQPSpeedWorker": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

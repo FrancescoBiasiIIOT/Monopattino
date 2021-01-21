@@ -1,4 +1,5 @@
 using ITS.Monopattino.Client.Data.Protocol;
+using ITS.Monopattino.Client.Data.Protocol.Mqtt;
 using ITS.Monopattino.Client.Service;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -20,9 +21,9 @@ namespace ITS.Monopattino.Client.WorkerService
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddHostedService<Worker>();                 
+                    services.AddHostedService<Worker>();                         
                     services.AddSingleton<IHubService, HubService>();
-                    services.AddSingleton<IProtocol, HttpRepository>();
+                    services.AddSingleton<IProtocol, AmqpRepository>();
                 });
     }
 }

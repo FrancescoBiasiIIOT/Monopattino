@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ITS.Monopattino.Server.MqttServer-F9C09D24-7C01-40A5-BA69-578FB3646A1A</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="M2Mqtt" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Monopattino.Server.Data\ITS.Monopattino.Server.Data.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Server.Models\ITS.Monopattino.Server.Models.csproj" />
+    <ProjectReference Include="..\ITS.Monopattino.Server.Services\ITS.Monopattino.Server.Services.csproj" />
+  </ItemGroup>
+</Project>
