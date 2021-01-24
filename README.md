@@ -1,4 +1,4 @@
-# Monopattino
+# Monopattino (AMQP)
 
 MODULO PROTOCOLLI IOT
 MATTEO MACCAGNAN - LATO CLIENT
